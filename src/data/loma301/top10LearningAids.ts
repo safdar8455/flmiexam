@@ -7,7 +7,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 1,
-    lo: 'Topic 01: Disqualification of Beneficiary - Felonious Killing & Slayer Rule',
+    lo: 'principle',
     question: 'David Vance named his wife, Clara, as the primary beneficiary and his brother, Mark, as the contingent beneficiary of his $500,000 life insurance policy. Clara was subsequently convicted in criminal court of intentionally and wrongfully murdering David. The insurer established that Clara did not purchase or instigate the policy with the premeditated intent to kill David. In this situation, the insurer is legally obligated to:',
     options: [
       'Pay the full $500,000 policy proceeds to Mark, the contingent beneficiary.',
@@ -20,7 +20,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 2,
-    lo: 'Topic 01: Disqualification of Beneficiary - Fraud in Inception & Void Ab Initio',
+    lo: 'principle',
     question: 'Evelyn Reed purchased a $1,000,000 life insurance policy on the life of her husband, Arthur, naming herself as the sole primary beneficiary and Arthur\'s daughter, Chloe, as contingent beneficiary. Two years later, Evelyn was convicted of intentionally and feloniously poisoning Arthur. The insurer discovered concrete proof that Evelyn procured the policy from the outset with the premeditated intent of murdering Arthur for the insurance money. Under these circumstances, the insurer\'s legal obligation is to:',
     options: [
       'Pay the $1,000,000 death benefit to the contingent beneficiary, Chloe.',
@@ -33,7 +33,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 3,
-    lo: 'Topic 01: Disqualification of Beneficiary - Justifiable Homicide & Self-Defense',
+    lo: 'principle',
     question: 'Marcus Trent was shot and killed by his wife, Elena, who was the primary beneficiary of Marcus\'s $400,000 life insurance policy. Their son, Lucas, was named contingent beneficiary. During the legal proceedings, the court ruled that Elena acted in lawful self-defense during a violent domestic assault and had no criminal culpability. How should the insurer handle the death claim?',
     options: [
       'Pay the full $400,000 policy proceeds to Elena.',
@@ -46,7 +46,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 4,
-    lo: 'Topic 01: Disqualification of Beneficiary - Criminal vs. Civil Court Standards',
+    lo: 'principle',
     question: 'Brian Shaw was found "not guilty" of murder in a criminal court regarding the sudden death of his business partner, Kevin, because the prosecution failed to prove guilt beyond a reasonable doubt. Kevin\'s estate subsequently filed a civil lawsuit against Brian. In civil court, the judge determined by a preponderance of the evidence that Brian intentionally and wrongfully caused Kevin\'s death. Brian is the primary beneficiary of Kevin\'s $750,000 key-person policy (validly issued without initial fraudulent intent), and Kevin\'s wife is the contingent beneficiary. The insurer must:',
     options: [
       'Disqualify Brian based on the civil court finding and pay the policy proceeds to Kevin\'s wife.',
@@ -59,7 +59,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 5,
-    lo: 'Topic 01: Disqualification of Beneficiary - Interpleader Action',
+    lo: 'principle',
     question: 'Following the death of an insured, the primary beneficiary is formally arrested and charged with first-degree murder of the insured. The contingent beneficiaries demand immediate payout of the $600,000 death benefit, while the primary beneficiary\'s defense attorney demands the proceeds be held in escrow. To protect itself from potential double liability while the criminal and civil liabilities are resolved, the insurer should file an:',
     options: [
       'Interpleader action, depositing the policy proceeds into the court registry and letting the court determine rightful entitlement.',
@@ -72,7 +72,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 6,
-    lo: 'Topic 01: Disqualification of Beneficiary - Insanity / Diminished Capacity Exception',
+    lo: 'principle',
     question: 'A primary beneficiary shot and killed the insured. In the ensuing criminal trial, the beneficiary was found not guilty by reason of insanity, having been proven incapable of understanding the nature and criminality of the act or forming felonious intent. In jurisdictions following traditional LOMA administrative principles, how is the claim administered if the killing was not intentional and felonious under the law?',
     options: [
       'The beneficiary is not disqualified under the slayer rule because they lacked the requisite legal capacity to commit an intentional, felonious killing.',
@@ -85,7 +85,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 7,
-    lo: 'Topic 01: Disqualification of Beneficiary - Absence of Contingent Beneficiary',
+    lo: 'principle',
     question: 'Harvey Cole purchased a $300,000 policy on his own life, naming his domestic partner, Julian, as the sole primary beneficiary. Harvey named no contingent beneficiary. Two years later, Julian was convicted of intentionally and wrongfully murdering Harvey. The policy was legitimately purchased by Harvey. To whom should the insurer distribute the policy proceeds?',
     options: [
       'To Harvey\'s estate (probate estate).',
@@ -98,7 +98,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 8,
-    lo: 'Topic 01: Disqualification of Beneficiary - Premium Return vs. Benefit Obligation',
+    lo: 'principle',
     question: 'Under what specific circumstance is an insurer relieved of paying ANY death benefit to either the contingent beneficiary or the insured\'s estate following the intentional and wrongful killing of the insured by the primary beneficiary?',
     options: [
       'When the beneficiary procured the policy with the premeditated fraudulent intent to kill the insured.',
@@ -111,7 +111,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 9,
-    lo: 'Topic 01: Disqualification of Beneficiary - Manslaughter vs. Murder Classifications',
+    lo: 'principle',
     question: 'An insured died in an automobile collision caused by the primary beneficiary, who was convicted of involuntary vehicular manslaughter (reckless driving without intent to cause death). Does this conviction disqualify the primary beneficiary under typical life insurance beneficiary disqualification rules?',
     options: [
       'No, because involuntary manslaughter lacks the requisite intentional design to kill the insured.',
@@ -124,7 +124,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 10,
-    lo: 'Topic 01: Disqualification of Beneficiary - Slayer Statutes Summary',
+    lo: 'principle',
     question: 'Which of the following statements correctly summarizes the core legal and operational rule governing beneficiary disqualification in life insurance claim administration?',
     options: [
       'When a beneficiary is disqualified for feloniously killing the insured, the insurer treats the beneficiary as having predeceased the insured, paying the proceeds to contingent beneficiaries or the insured\'s estate, unless the policy was void ab initio due to fraudulent procurement.',
@@ -142,7 +142,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 11,
-    lo: 'Topic 02: Suicide Exclusion - Standard Policy Operation & Payment Obligation',
+    lo: 'principle',
     question: 'Mark Roberts purchased an individual $500,000 life insurance policy with a standard two-year suicide exclusion provision. Thirteen months after the policy\'s issue date, Mark committed suicide after paying all required premiums. In this scenario, what is the insurance company legally obligated to pay to the beneficiary?',
     options: [
       'A refund of the premiums paid on the policy (less any outstanding policy loans or indebtedness).',
@@ -155,7 +155,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 12,
-    lo: 'Topic 02: Suicide Exclusion - Expiration of Exclusion Period',
+    lo: 'principle',
     question: 'Seven years after purchasing an individual life insurance policy on her life, Wanda Davis died as a result of suicide. Her policy contained a standard two-year suicide exclusion clause, and premiums were fully paid. Can the insurance company invoke the suicide exclusion provision to deny payment of the full death benefit in this situation?',
     options: [
       'No, because the two-year suicide exclusion period had already expired, so the insurer must pay the full death benefit.',
@@ -168,7 +168,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 13,
-    lo: 'Topic 02: Suicide Exclusion - Burden of Proof & Legal Presumption',
+    lo: 'principle',
     question: 'Following the death of an insured during the two-year suicide exclusion period, the beneficiary files a claim for the full policy face amount. The insurer suspects suicide, but the physical evidence is ambiguous between an accidental firearm discharge and intentional suicide. If the beneficiary files a lawsuit, which party bears the legal burden of proof regarding suicide?',
     options: [
       'The insurance company must prove that the insured committed suicide, because the law establishes a strong presumption against suicide.',
@@ -181,7 +181,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 14,
-    lo: 'Topic 02: Suicide Exclusion - Effect of Policy Reinstatement',
+    lo: 'principle',
     question: 'Abby Childs was issued a life insurance policy in the United States containing a standard two-year suicide exclusion clause. Fourteen months after issue, the policy lapsed for nonpayment of premium. One month later, the policy was successfully reinstated. Eighteen months after the reinstatement date (33 months after original policy issue), Abby committed suicide. What is the insurer obligated to pay?',
     options: [
       'The full policy death benefit, because policy reinstatement does not restart the suicide exclusion period for existing coverage.',
@@ -194,7 +194,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 15,
-    lo: 'Topic 02: Suicide Exclusion - Enforcement vs. Contesting Policy Validity',
+    lo: 'principle',
     question: 'When an insurance company denies payment of the death benefit because the insured committed suicide 11 months after policy issue and returns the premiums paid, is the insurer "contesting the validity" of the policy?',
     options: [
       'No; the insurer is enforcing a valid contractual exclusion provision within an acknowledged, binding contract.',
@@ -207,7 +207,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 16,
-    lo: 'Topic 02: Suicide Exclusion - Temporary Insurance Receipts',
+    lo: 'principle',
     question: 'An applicant applies for life insurance, pays the initial premium, and receives a binding conditional premium receipt. The receipt explicitly stipulates that coverage is subject to the provisions of the policy applied for. If the applicant commits suicide during the temporary coverage period before the formal policy is issued, the insurer\'s obligation is to:',
     options: [
       'Deny the full death claim and refund the premium paid, because the temporary insurance receipt incorporates the policy\'s suicide exclusion provision.',
@@ -220,7 +220,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 17,
-    lo: 'Topic 02: Suicide Exclusion - Increases in Coverage After Issue',
+    lo: 'principle',
     question: 'Five years after purchasing a $200,000 universal life policy, an insured exercises an option to increase the face amount by $100,000 (totaling $300,000). Ten months after the coverage increase takes effect, the insured dies by suicide. How does the suicide exclusion provision apply to this claim?',
     options: [
       'The insurer pays the original $200,000 death benefit, but excludes the $100,000 increase, refunding the extra premiums paid for that additional coverage.',
@@ -233,7 +233,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 18,
-    lo: 'Topic 02: Suicide Exclusion - Definition of Premium Return',
+    lo: 'principle',
     question: 'When an insurer returns premiums paid following the death of an insured by suicide within the two-year exclusion window, how is this disbursement legally and technically classified?',
     options: [
       'It is classified as a contractual benefit limitation (premium refund) specified by the policy terms, not as a recission damages settlement.',
@@ -246,7 +246,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 19,
-    lo: 'Topic 02: Suicide Exclusion - Accidental Death vs. Suicide Distinctions',
+    lo: 'principle',
     question: 'An insured holding a 1-year-old life policy with an Accidental Death Benefit (ADB) rider dies from an overdose of prescription medication. Claim investigation reveals an explicit suicide note and recent psychiatric documentation of suicidal ideation. Under standard LOMA claim administration rules, what is the insurer\'s total payout?',
     options: [
       'The insurer denies both the basic life death benefit and the ADB benefit, refunding the premiums paid for the policy and rider.',
@@ -259,7 +259,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 20,
-    lo: 'Topic 02: Suicide Exclusion - Sanity of the Insured',
+    lo: 'principle',
     question: 'Modern life insurance suicide exclusion clauses in the United States typically state that benefits will be limited to a return of premiums if the insured dies by suicide "while sane or insane." The primary legal purpose of including the phrase "while sane or insane" is to:',
     options: [
       'Prevent beneficiaries from arguing that the insured lacked the mental capacity to form the intent to commit suicide, thereby preserving the exclusion regardless of mental state.',
@@ -277,7 +277,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 21,
-    lo: 'Topic 03: Group Life Conversion - Statutory Timeline & Application Rules',
+    lo: 'principle',
     question: 'When an employee\'s eligibility for group life insurance coverage terminates due to resignation or retirement, what is the standard statutory time frame within which the individual must apply for conversion and pay the first premium without providing evidence of insurability?',
     options: [
       '31 days after group coverage eligibility terminates.',
@@ -290,7 +290,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 22,
-    lo: 'Topic 03: Group Life Conversion - Eligible Policy Types',
+    lo: 'principle',
     question: 'Under standard group life insurance conversion provisions, which type of individual life insurance policy is typically EXCLUDED from the conversion privilege?',
     options: [
       'Individual term life insurance policies.',
@@ -303,7 +303,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 23,
-    lo: 'Topic 03: Group Life Conversion - Death During Conversion Period',
+    lo: 'principle',
     question: 'Carlos Mendoza left his employer on June 1, terminating his group life insurance coverage of $100,000. On June 20 (19 days after leaving), Carlos died in an accident without having submitted an application or paid any premium for an individual conversion policy. What is the group life insurer obligated to pay?',
     options: [
       'The full $100,000 group life insurance death benefit.',
@@ -316,7 +316,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 24,
-    lo: 'Topic 03: Group Life Conversion - Premium Rating Methodology',
+    lo: 'principle',
     question: 'When an individual converts group life insurance to an individual permanent life insurance policy without providing evidence of insurability, how does the insurer calculate the premium rate for the new individual contract?',
     options: [
       'The premium is based on the insurer\'s customary standard rate for the applicant\'s attained age and gender at the time of conversion.',
@@ -329,7 +329,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 25,
-    lo: 'Topic 03: Group Life Conversion - Surviving Dependents Rights',
+    lo: 'principle',
     question: 'A group life insurance plan includes dependent life coverage on spouses and children. If the primary employee dies while covered under the group policy, what conversion rights do the surviving covered dependents possess?',
     options: [
       'Any surviving dependent covered under the group plan at the time of the employee\'s death has the contractual right to convert their coverage to an individual permanent policy without providing evidence of insurability.',
@@ -342,7 +342,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 26,
-    lo: 'Topic 03: Group Life Conversion - Employment Transition Scenario',
+    lo: 'principle',
     question: 'Michael Han terminated employment with Oak Company, where he had $85,000 of group life insurance. The following day, he began working for Amber Company, whose group life plan immediately provided him with $50,000 of group life coverage. Under the typical conversion provision of Oak\'s policy, how much individual coverage can Mr. Han obtain from Oak without providing evidence of insurability?',
     options: [
       '$35,000 of individual coverage (the difference between $85,000 and $50,000).',
@@ -355,7 +355,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 27,
-    lo: 'Topic 03: Group Life Conversion - Master Group Policy Termination Limit',
+    lo: 'principle',
     question: 'When an employer terminates its entire group life insurance contract for all employees (rather than an individual employee leaving), what statutory condition typically governs the conversion privilege for employees who have been insured under the plan for at least 5 years?',
     options: [
       'Each employee who has been covered for at least 5 years can convert up to a statutory maximum (typically $2,000 or $10,000, or the lost coverage less any replacement group coverage).',
@@ -368,7 +368,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 28,
-    lo: 'Topic 03: Group Life Conversion - Dependent Aging Out of Eligibility',
+    lo: 'principle',
     question: 'Sarah, the 26-year-old daughter of employee Robert, reaches the maximum limiting age for dependent child coverage under Robert\'s employer group life plan. Sarah has a chronic medical condition that makes her medically uninsurable in the retail market. Can Sarah convert her dependent coverage?',
     options: [
       'Yes; a dependent child losing eligibility due to reaching the plan\'s limiting age is entitled to convert to an individual cash-value policy without providing evidence of insurability within 31 days.',
@@ -381,7 +381,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 29,
-    lo: 'Topic 03: Group Life Conversion - Disability & Waiver of Premium Interaction',
+    lo: 'principle',
     question: 'An insured employee becomes totally disabled and qualifies for the Waiver of Premium (WP) benefit under her group life insurance policy. One year later, the employer terminates the master group life contract. How is the disabled employee\'s life coverage affected under standard group life administration?',
     options: [
       'The group life insurer must continue the employee\'s life coverage under the extended disability benefit / waiver provision as long as total disability persists, regardless of master contract termination.',
@@ -394,7 +394,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 30,
-    lo: 'Topic 03: Group Life Conversion - Core Rule Consolidation',
+    lo: 'principle',
     question: 'Which of the following statements regarding group life conversion is TRUE according to LOMA guidelines?',
     options: [
       'The conversion provision gives insureds 31 days to convert to an individual permanent policy at attained age rates without medical underwriting.',
@@ -412,7 +412,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 31,
-    lo: 'Topic 04: Reinsurance - Assumption vs. Indemnity Fundamentals',
+    lo: 'principle',
     question: 'Apex Life enters into a reinsurance agreement with Summit Re. Under this agreement, Summit Re permanently assumes all legal liabilities and contractual responsibilities for a block of 25,000 whole life policies previously issued by Apex Life. Summit Re issues new certificates of assumption directly to all policyowners, and Apex Life is completely released from liability. This transaction is classified as:',
     options: [
       'Assumption reinsurance.',
@@ -425,7 +425,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 32,
-    lo: 'Topic 04: Reinsurance - Indemnity Reinsurance Legal Relationships',
+    lo: 'principle',
     question: 'Beacon Life cedes 40% of its mortality risk on newly issued term life policies to Polaris Re under an indemnity reinsurance treaty. When an insured dies, what is the legal and administrative procedure for paying the death benefit?',
     options: [
       'Beacon Life pays the entire death benefit to the beneficiary, and Polaris Re subsequently reimburses Beacon Life for its 40% ceded share.',
@@ -438,7 +438,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 33,
-    lo: 'Topic 04: Reinsurance - Disclosure to Policyowners',
+    lo: 'principle',
     question: 'Which of the following statements accurately contrasts assumption reinsurance and indemnity reinsurance regarding disclosure to policyowners?',
     options: [
       'Assumption reinsurance is explicitly disclosed to policyowners via certificates of assumption, whereas indemnity reinsurance is typically not disclosed to policyowners.',
@@ -451,7 +451,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 34,
-    lo: 'Topic 04: Reinsurance - Recapture and Commutation Rights',
+    lo: 'principle',
     question: 'In which type of reinsurance transaction does the direct writer retain the contractual right to take back (recapture) reinsured risk, and the reinsurer retain the right to return (commute) specified reinsured risks?',
     options: [
       'Indemnity reinsurance.',
@@ -464,7 +464,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 35,
-    lo: 'Topic 04: Reinsurance - Number of Contractual Parties',
+    lo: 'principle',
     question: 'How many parties are legally involved in an assumption reinsurance transaction compared to an indemnity reinsurance transaction?',
     options: [
       'Assumption reinsurance is a three-party transaction (direct writer, reinsurer, and policyowner), whereas indemnity reinsurance is a two-party transaction (direct writer and reinsurer).',
@@ -477,7 +477,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 36,
-    lo: 'Topic 04: Reinsurance - Corporate Acquisition / Sale of Lines of Business',
+    lo: 'principle',
     question: 'Prism Life decides to exit the individual disability income market entirely to focus exclusively on annuities. Prism sells its entire in-force disability insurance line to Guardian Re, completely releasing Prism from all future claim liabilities and customer service operations. Which reinsurance vehicle is utilized to accomplish this exit?',
     options: [
       'Assumption reinsurance.',
@@ -490,7 +490,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 37,
-    lo: 'Topic 04: Reinsurance - Direct Writer Insolvency Impact',
+    lo: 'principle',
     question: 'If a direct writing insurer becomes insolvent while an indemnity reinsurance treaty is in effect, what is the legal obligation of the indemnity reinsurer under standard statutory insolvency clauses?',
     options: [
       'The reinsurer must pay its full share of reinsured claims directly to the insolvent direct writer\'s receiver or liquidator, without reduction based on the insolvency.',
@@ -503,7 +503,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 38,
-    lo: 'Topic 04: Reinsurance - Automatic Termination Triggers',
+    lo: 'principle',
     question: 'In an ongoing indemnity reinsurance arrangement, which condition typically allows for termination of the treaty or triggers automatic termination?',
     options: [
       'Mutual written agreement of the parties, or failure of either party to meet its contractual financial obligations (such as payment of reinsurance premiums or reimbursements).',
@@ -516,7 +516,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 39,
-    lo: 'Topic 04: Reinsurance - New Business vs. Existing In-Force Blocks',
+    lo: 'principle',
     question: 'Which type of reinsurance typically applies to a direct writer\'s future NEW business applications on an ongoing basis rather than existing in-force blocks?',
     options: [
       'Indemnity reinsurance (such as automatic treaty reinsurance).',
@@ -529,7 +529,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 40,
-    lo: 'Topic 04: Reinsurance - Comparison Matrix Verification',
+    lo: 'principle',
     question: 'Which of the following characteristics is UNIQUE to assumption reinsurance and NEVER present in traditional indemnity reinsurance?',
     options: [
       'The reinsurer takes on the direct legal liability to policyowners, releasing the direct writer.',
@@ -547,7 +547,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 41,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Disability Income & Waiver of Premium',
+    lo: 'principle',
     question: 'When underwriting supplemental disability benefits, specifically Disability Income (DI) riders and Waiver of Premium for Disability (WP) riders, which factor is of PARAMOUNT concern to underwriters that is generally given much less weight in basic life insurance mortality underwriting?',
     options: [
       'The proposed insured\'s exact occupation and daily occupational duties.',
@@ -560,7 +560,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 42,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Age Limits on DI and WP',
+    lo: 'principle',
     question: 'How do underwriters treat age when evaluating applications for Waiver of Premium for Disability (WP) and Disability Income (DI) riders?',
     options: [
       'Age is a major underwriting factor; the risk of disability increases steeply with age, and coverage under these riders almost always terminates at age 60 or 65.',
@@ -573,7 +573,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 43,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Payor Benefit Underwriting',
+    lo: 'principle',
     question: 'A mother applies for an individual juvenile life insurance policy on the life of her 7-year-old son and requests a Waiver of Premium for Payor (Payor Benefit) rider. From whom must the underwriter obtain evidence of insurability?',
     options: [
       'From BOTH the mother (the payor) and the child (the insured).',
@@ -586,7 +586,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 44,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Family Benefit Coverage',
+    lo: 'principle',
     question: 'An applicant applies for an individual life insurance policy with a Family Benefit rider covering his spouse and dependent children. One of the dependent children has a serious medical impairment. How will the underwriter typically handle the application for the family rider?',
     options: [
       'The underwriter requires evidence of insurability for all family members; if one member has an impairment, the insurer may issue the family rider with an exclusion rider or higher rating for that individual, rather than automatically declining the entire family.',
@@ -599,7 +599,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 45,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Guaranteed Insurability (GI) Limitations',
+    lo: 'principle',
     question: 'Which of the following limitations typically applies to Guaranteed Insurability (GI) riders in life insurance underwriting?',
     options: [
       'Insurers typically do not add a GI rider to a basic policy that was issued on a substandard basis.',
@@ -612,7 +612,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 46,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Accidental Death Benefit (ADB) Denial Triggers',
+    lo: 'principle',
     question: 'An underwriter would most likely DENY a request to add an Accidental Death Benefit (ADB) rider to a life insurance policy if the proposed insured:',
     options: [
       'Has a history of alcohol or substance abuse, or is rated for mortality exceeding 150% (Table 2).',
@@ -625,7 +625,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 47,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Terminal Illness (TI) Underwriting Need',
+    lo: 'principle',
     question: 'Why is separate, specialized underwriting usually NOT necessary when an applicant requests a Terminal Illness (TI) accelerated death benefit rider at the time of base life policy application?',
     options: [
       'Because the risk of terminal illness is already evaluated during the underwriting of the base life insurance mortality risk.',
@@ -638,7 +638,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 48,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Critical Illness (CI) Underwriting Factors',
+    lo: 'principle',
     question: 'In contrast to Terminal Illness riders, why does Critical Illness (CI) accelerated benefit coverage require rigorous and separate medical underwriting?',
     options: [
       'CI benefits pay out upon the diagnosis of specific dread diseases (e.g., stroke, heart attack, cancer) where the insured may survive for many years; thus, family history and personal medical history must be evaluated.',
@@ -651,7 +651,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 49,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Long-Term Care (LTC) Impairment Disqualifications',
+    lo: 'principle',
     question: 'An underwriter evaluating an application for a Long-Term Care (LTC) rider discovers that the proposed insured currently requires assistance with bathing and dressing. What action will the underwriter take regarding the LTC rider?',
     options: [
       'Decline to issue the LTC rider, because insurers do not issue LTC coverage to applicants who already suffer from cognitive impairments or deficiencies in Activities of Daily Living (ADLs).',
@@ -664,7 +664,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 50,
-    lo: 'Topic 05: Underwriting Supplemental Benefits - Chronic Illness vs. LTC Administrative Costs',
+    lo: 'principle',
     question: 'Which of the following statements is accurate regarding the underwriting and administration of Chronic Illness accelerated benefit riders compared to Long-Term Care (LTC) insurance riders?',
     options: [
       'Chronic illness riders are generally less expensive for insurers to administer than LTC riders because benefit payouts are often discounted from the face amount or paid as lump sums without requiring ongoing verification of daily care receipts.',
@@ -682,7 +682,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 51,
-    lo: 'Topic 06: Policy Replacements - Purpose of NAIC Model Regulation',
+    lo: 'principle',
     question: 'The primary purpose of the NAIC Replacement of Life Insurance and Annuities Model Regulation is to:',
     options: [
       'Protect policyowners by ensuring they receive full, fair disclosure regarding the financial consequences of replacing existing coverage, thereby curbing abusive sales practices.',
@@ -695,7 +695,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 52,
-    lo: 'Topic 06: Policy Replacements - Financial Professional Replacement Statement',
+    lo: 'principle',
     question: 'Under the NAIC Replacement Model Regulation, when must a financial professional submit a formal statement to the insurer indicating whether an application involves the replacement of existing insurance?',
     options: [
       'For EVERY policy application sold, regardless of whether a replacement is actually occurring.',
@@ -708,7 +708,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 53,
-    lo: 'Topic 06: Policy Replacements - Notice to Existing Insurer and Conservation',
+    lo: 'principle',
     question: 'When a replacement is identified, the replacing insurer is required to send a written notification to the existing insurer whose policy is being replaced. What is the existing insurer legally permitted to do upon receiving this notice?',
     options: [
       'Attempt to conserve the policy by contacting the policyowner and presenting information on the advantages of retaining existing coverage.',
@@ -721,7 +721,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 54,
-    lo: 'Topic 06: Policy Replacements - Section 1035 Exchange Tax Neutrality',
+    lo: 'principle',
     question: 'Tanya Krecek owned a whole life policy issued by Bro Life with a Cash Surrender Value (CSV) of $10,000. Tanya had paid a total of $8,500 in premiums over the years, with no withdrawals, loans, or dividends. Tanya surrendered the policy and had Bro Life transfer the entire $10,000 CSV directly to purchase a new universal life policy under the provisions of Internal Revenue Code Section 1035. What is Tanya\'s cost basis and taxable gain at the time of the transaction?',
     options: [
       'Cost basis: $8,500; Taxable gain: $0.',
@@ -734,7 +734,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 55,
-    lo: 'Topic 06: Policy Replacements - Calculating Taxable Gain on Cash Surrender',
+    lo: 'principle',
     question: 'Robert Vance surrenders his whole life policy for its Net Cash Surrender Value of $32,000. Over the life of the policy, Robert paid $24,000 in gross premiums and received $3,000 in non-taxable policy dividends. He did NOT execute a Section 1035 exchange. What is Robert\'s taxable gain reportable as ordinary income?',
     options: [
       '$11,000',
@@ -747,7 +747,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 56,
-    lo: 'Topic 06: Policy Replacements - Cost Basis Exceeding Cash Surrender Value',
+    lo: 'principle',
     question: 'Elena Gomez surrenders an underperforming life insurance policy for its cash surrender value of $7,000. Elena paid a cumulative total of $11,000 in premiums (cost basis = $11,000). How is the $4,000 difference treated for federal income tax purposes?',
     options: [
       'There is no taxable gain, and Elena cannot claim a deductible tax loss for the $4,000 difference.',
@@ -760,7 +760,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 57,
-    lo: 'Topic 06: Policy Replacements - Disadvantages of Replacing Existing Policies',
+    lo: 'principle',
     question: 'From an underwriting and consumer standpoint, why is replacing an existing cash-value life insurance policy with a new one frequently disadvantageous to the policyowner?',
     options: [
       'The applicant must pay new front-end acquisition and administrative costs, and must satisfy a new contestable period and suicide exclusion period under the new policy.',
@@ -773,7 +773,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 58,
-    lo: 'Topic 06: Policy Replacements - Permissible Section 1035 Exchanges',
+    lo: 'principle',
     question: 'Under IRS Section 1035, which of the following exchanges is permitted on a tax-free basis?',
     options: [
       'Exchanging a life insurance policy for an annuity contract.',
@@ -786,7 +786,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 59,
-    lo: 'Topic 06: Policy Replacements - Replacement Notice Requirements',
+    lo: 'principle',
     question: 'When an applicant indicates that an existing policy will be replaced, what must the financial professional provide to the applicant at the time of application under standard NAIC regulations?',
     options: [
       'A pre-printed "Notice Regarding Replacement" explaining the risks of replacement, signed by both the applicant and the producer, with a copy left with the applicant.',
@@ -799,7 +799,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 60,
-    lo: 'Topic 06: Policy Replacements - Boot / Cash Received in a 1035 Exchange',
+    lo: 'principle',
     question: 'In a Section 1035 exchange, an insured transfers a life insurance policy with a $20,000 cash value and a $12,000 cost basis to a new insurer. The insured directs the new insurer to apply $16,000 to the new policy and pay the remaining $4,000 directly to the insured in cash ("boot"). What is the tax impact of this transaction?',
     options: [
       'The $4,000 cash received is treated as taxable gain (ordinary income) in the current tax year.',
@@ -817,7 +817,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 61,
-    lo: 'Topic 07: Specialized Policies - Joint Life (First-to-Die) Primary Purpose',
+    lo: 'principle',
     question: 'A financial planner recommends a multi-life policy to a dual-income married couple whose primary financial objective is to replace the lost income of whichever spouse dies first, enabling the surviving spouse to pay ongoing mortgage and living expenses. Which type of policy is most appropriate?',
     options: [
       'Joint whole life (first-to-die) insurance.',
@@ -830,7 +830,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 62,
-    lo: 'Topic 07: Specialized Policies - Last Survivor (Second-to-Die) Estate Planning Purpose',
+    lo: 'principle',
     question: 'A wealthy couple with significant illiquid real estate holdings wishes to purchase life insurance to provide liquidity to pay federal estate taxes that will become due only after BOTH spouses have passed away. Which policy structure best fits their need?',
     options: [
       'Last survivor (second-to-die) life insurance.',
@@ -843,7 +843,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 63,
-    lo: 'Topic 07: Specialized Policies - Underwriting Strictness: Joint vs. Last Survivor',
+    lo: 'principle',
     question: 'How do underwriting standards for last survivor (second-to-die) life insurance compare to those for single life or joint life (first-to-die) policies?',
     options: [
       'Underwriting standards for last survivor insurance are generally more LENIENT, because the insurer does not pay the death benefit until both insureds have died.',
@@ -856,7 +856,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 64,
-    lo: 'Topic 07: Specialized Policies - Evaluating Risk on Joint Life Policies',
+    lo: 'principle',
     question: 'When underwriting a joint life (first-to-die) life insurance policy on two business partners, how does the underwriter evaluate the risk presented by the applicants?',
     options: [
       'The underwriter conducts a completely separate medical and financial evaluation of each proposed insured.',
@@ -869,7 +869,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 65,
-    lo: 'Topic 07: Specialized Policies - Ratable Risk on Multi-Life Applications',
+    lo: 'principle',
     question: 'Two partners apply for a joint life (first-to-die) insurance policy. The underwriter determines that Partner A is a standard risk, but Partner B is a ratable (substandard) risk due to treated hypertension. What is the underwriter\'s typical action?',
     options: [
       'The underwriter typically does NOT decline the policy; rather, the underwriter assigns a substandard rating or adjusted premium rate to reflect Partner B\'s extra risk.',
@@ -882,7 +882,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 66,
-    lo: 'Topic 07: Specialized Policies - Juvenile Insurance Anti-Selection & Moral Hazard',
+    lo: 'principle',
     question: 'When underwriting juvenile life insurance policies, underwriters enforce strict rules to avoid moral hazard and speculation. Which of the following is a key underwriting guideline for juvenile coverage?',
     options: [
       'The amount of coverage on the child is typically limited to a reasonable fraction (e.g., 25% to 50%) of the insurance in force on the parents or breadwinner.',
@@ -895,7 +895,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 67,
-    lo: 'Topic 07: Specialized Policies - Sibling Coverage Parity in Juvenile Underwriting',
+    lo: 'principle',
     question: 'A father applies for a $100,000 juvenile life insurance policy on his 10-year-old son, Peter. In evaluating the application, the underwriter reviews the coverage on Peter\'s siblings and discovers that Peter\'s two sisters have only $10,000 of coverage each. How will the underwriter view this situation?',
     options: [
       'The underwriter will question the disparity, because underwriters generally require roughly equal amounts of life insurance on all children in a family to prevent moral hazard and anti-selection.',
@@ -908,7 +908,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 68,
-    lo: 'Topic 07: Specialized Policies - Adopted vs. Biological Children',
+    lo: 'principle',
     question: 'How do life insurance underwriters treat legally adopted children compared to biological children when underwriting juvenile life insurance policies?',
     options: [
       'Underwriters treat legally adopted children exactly the same as biological children.',
@@ -921,7 +921,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 69,
-    lo: 'Topic 07: Specialized Policies - Non-Parental Applicants for Juvenile Insurance',
+    lo: 'principle',
     question: 'A wealthy grandmother applies to purchase a $50,000 juvenile life insurance policy on her 6-year-old granddaughter. Under standard underwriting guidelines, what requirement must typically be met before the insurer will issue the policy?',
     options: [
       'The child\'s parents or legal guardians must give their written consent to the application, and insurance in force on the parents must be verified.',
@@ -934,7 +934,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 70,
-    lo: 'Topic 07: Specialized Policies - Multi-Life and Juvenile Synthesis',
+    lo: 'principle',
     question: 'Consider the following statements regarding the underwriting of multi-life and juvenile policies: Statement 1: When a parent applies for juvenile insurance and requests a Waiver of Premium for Payor benefit, the insurer typically asks for evidence of insurability for both parent and child. Statement 2: For a joint life policy, the underwriter will make a separate evaluation of the risk presented by each proposed insured. Which statement(s) is/are TRUE?',
     options: [
       'Both Statement 1 and Statement 2 are true.',
@@ -952,7 +952,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 71,
-    lo: 'Topic 08: Charging for Substandard Risks - Three Mortality Risk Trajectories',
+    lo: 'principle',
     question: 'In life insurance underwriting, the choice among table rating, permanent flat extra premium, and temporary flat extra premium depends primarily on whether the proposed insured\'s extra mortality risk is assumed to:',
     options: [
       'Increase with age, remain constant over time, or decrease with age.',
@@ -965,7 +965,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 72,
-    lo: 'Topic 08: Charging for Substandard Risks - Constant Risk / Permanent Flat Extra',
+    lo: 'principle',
     question: 'Vector Insurance Company is underwriting an application for a professional race car driver, an avocation Vector considers hazardous. Vector projects that this extra risk will remain constant at approximately 5 extra deaths per 1,000 per year throughout the policy duration. Which rating method is most appropriate?',
     options: [
       'Permanent flat extra premium.',
@@ -978,7 +978,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 73,
-    lo: 'Topic 08: Charging for Substandard Risks - Increasing Risk / Table Rating',
+    lo: 'principle',
     question: 'Judith Thomas applies for life insurance. Medical underwriting reveals moderate hypertension and early-stage Type 2 diabetes. Because the mortality risk associated with these progressive chronic medical conditions increases as the insured ages, the underwriter should assign a:',
     options: [
       'Table rating (extra percentage table rating).',
@@ -991,7 +991,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 74,
-    lo: 'Topic 08: Charging for Substandard Risks - Table Rating Multiples (Table 3 Math)',
+    lo: 'principle',
     question: 'An underwriter assigns a proposed insured a Table 3 (or Table C) rating using an extra percentage table where each table step represents a 25% increase above standard mortality (Standard = 100%, Table 1 = 125%, Table 2 = 150%). The proposed insured\'s expected mortality is:',
     options: [
       '1.75 times standard mortality (175%).',
@@ -1004,7 +1004,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 75,
-    lo: 'Topic 08: Charging for Substandard Risks - Decreasing Risk / Temporary Flat Extra',
+    lo: 'principle',
     question: 'An underwriter evaluates an applicant who underwent successful surgery to remove a non-malignant tumor 18 months ago. Clinical studies demonstrate that the extra mortality risk is highest immediately post-surgery, decreases steadily each year, and completely disappears after 4 years. Which rating method is designed for this risk profile?',
     options: [
       'Temporary flat extra premium.',
@@ -1017,7 +1017,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 76,
-    lo: 'Topic 08: Charging for Substandard Risks - Impact of Flat Extras on Cash Values',
+    lo: 'principle',
     question: 'When an insurer assesses a permanent or temporary flat extra premium on a whole life insurance policy to cover a hazardous avocation, how does the flat extra premium affect the policy\'s contractual guaranteed cash surrender values and policy dividends?',
     options: [
       'The flat extra premium typically does NOT increase the policy\'s cash surrender values or paid-up dividend additions; it is dedicated purely to covering the extra mortality hazard.',
@@ -1030,7 +1030,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 77,
-    lo: 'Topic 08: Charging for Substandard Risks - Table Rating Effect on Cash Values',
+    lo: 'principle',
     question: 'In contrast to flat extra premiums, how does a Table Rating (extra percentage table rating) affect the cash values and reserves of a permanent cash-value life insurance policy?',
     options: [
       'Because table ratings assume higher mortality rates at every age, the policy reserves and corresponding cash surrender values are often higher than those for a standard policy.',
@@ -1043,7 +1043,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 78,
-    lo: 'Topic 08: Charging for Substandard Risks - Temporary Flat Extra Duration Example',
+    lo: 'principle',
     question: 'An applicant who was treated for early-stage bladder cancer 2 years ago is offered a policy with a temporary flat extra premium of $4.00 per $1,000 for 3 years. The face amount of the policy is $250,000, and the standard annual premium is $1,500. How much total annual premium will the policyowner pay in Year 2 and in Year 5?',
     options: [
       'Year 2: $2,500; Year 5: $1,500.',
@@ -1056,7 +1056,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 79,
-    lo: 'Topic 08: Charging for Substandard Risks - Combining Rating Methods',
+    lo: 'principle',
     question: 'Can an underwriter combine two different substandard rating methods on the same applicant—for example, assessing both a Table Rating and a Flat Extra Premium?',
     options: [
       'Yes; if the applicant presents a chronic medical condition with increasing risk with age (e.g., coronary disease) AND engages in a hazardous hobby with constant risk (e.g., scuba diving).',
@@ -1069,7 +1069,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 80,
-    lo: 'Topic 08: Charging for Substandard Risks - Summary Comparison',
+    lo: 'principle',
     question: 'Match the risk factor to its correct underwriting rating methodology: Factor 1: Structural steel bridge builder (constant hazardous occupation). Factor 2: Untreated moderate chronic hypertension (increasing progressive medical impairment). Factor 3: Fully recovered coronary artery bypass patient 1 year post-op (decreasing post-surgical mortality).',
     options: [
       '1 = Permanent flat extra; 2 = Table rating; 3 = Temporary flat extra.',
@@ -1087,7 +1087,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 81,
-    lo: 'Topic 09: Numerical Rating System - Benchmark Standard Score',
+    lo: 'principle',
     question: 'In the numerical rating system used by life insurance underwriters, what numerical score represents the average, or standard, mortality risk?',
     options: [
       '100 (or 100%).',
@@ -1100,7 +1100,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 82,
-    lo: 'Topic 09: Numerical Rating System - Debits vs. Credits Operation',
+    lo: 'principle',
     question: 'Unlike traditional banking where debits decrease an account and credits increase it, how do debits and credits operate in the life insurance numerical rating system?',
     options: [
       'Debits represent unfavorable risk factors and are assigned POSITIVE numerical values (increasing the total score and mortality risk); Credits represent favorable risk factors and are assigned NEGATIVE numerical values (reducing the total score and mortality risk).',
@@ -1113,7 +1113,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 83,
-    lo: 'Topic 09: Numerical Rating System - Exclusion of Financial Risk Factors',
+    lo: 'principle',
     question: 'Which of the following categories of underwriting factors is STRICTLY EXCLUDED from being assigned debits or credits in the numerical rating system?',
     options: [
       'Financial risk factors (such as income multiples, affordability, bankruptcy, and speculation).',
@@ -1126,7 +1126,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 84,
-    lo: 'Topic 09: Numerical Rating System - Preferred Risk Classification Score',
+    lo: 'principle',
     question: 'An applicant\'s underwriting file is processed through the numerical rating system. Starting with the standard base of 100, the applicant has 0 debits and receives 25 credits (-25) for exceptional family health and optimal lipid levels, resulting in a total numerical rating of 75. To which risk class will this applicant most likely be assigned?',
     options: [
       'Preferred risk class (entitling the applicant to the lowest premium rate).',
@@ -1139,7 +1139,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 85,
-    lo: 'Topic 09: Numerical Rating System - Calculation of Total Score',
+    lo: 'principle',
     question: 'An underwriter evaluates an applicant using the numerical rating system. The basic standard starting score is 100. The underwriter assigns +35 debits for elevated blood pressure, +20 debits for family history of early heart disease, and -15 credits for an ideal build and active cardiovascular fitness. What is the applicant\'s total numerical rating?',
     options: [
       '140',
@@ -1152,7 +1152,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 86,
-    lo: 'Topic 09: Numerical Rating System - Premium Rate Comparison: Rating 90 vs. 150',
+    lo: 'principle',
     question: 'All other underwriting factors being equal, an insurer would assign a LOWER premium rate to a proposed insured who has a numerical rating of 90 than it would to an otherwise comparable individual who has a numerical rating of 150 because:',
     options: [
       'In the numerical rating system, a lower score indicates lower expected mortality risk to the insurer.',
@@ -1165,7 +1165,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 87,
-    lo: 'Topic 09: Numerical Rating System - Substandard Class Thresholds',
+    lo: 'principle',
     question: 'Most life insurers establish the standard risk class range for total numerical scores between approximately:',
     options: [
       '90 and 125 (or 85 and 125).',
@@ -1178,7 +1178,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 88,
-    lo: 'Topic 09: Numerical Rating System - High Debits and Decline Threshold',
+    lo: 'principle',
     question: 'When an applicant\'s medical and physical impairments accumulate total debits resulting in an aggregate numerical score exceeding 500, what underwriting action is standard across the industry?',
     options: [
       'The applicant is classified as a decline (uninsurable risk) because the mortality hazard exceeds the insurer\'s maximum acceptable underwriting threshold.',
@@ -1191,7 +1191,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 89,
-    lo: 'Topic 09: Numerical Rating System - Objective vs. Subjective Advantages',
+    lo: 'principle',
     question: 'What is the primary operational advantage of utilizing the numerical rating system in life insurance underwriting compared to purely subjective clinical judgment?',
     options: [
       'It provides a structured, consistent, and objective framework that enables consistent risk classification across multiple underwriters and automated underwriting engines.',
@@ -1204,7 +1204,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 90,
-    lo: 'Topic 09: Numerical Rating System - Core Philosophy Review',
+    lo: 'principle',
     question: 'Complete the statement: In the numerical rating system, the higher the total numerical rating, the ____________ the risk to the insurer. Factors that have an unfavorable effect on mortality are assigned ____________, which carry ____________ values.',
     options: [
       'higher / debits / positive',
@@ -1222,7 +1222,7 @@ export const top10LearningAidsQuestions: Question[] = [
   // =========================================================================
   {
     id: 91,
-    lo: 'Topic 10: Financial Underwriting - Determining In-Force Coverage (Replaced Policy)',
+    lo: 'principle',
     question: 'John Stroud applies to Libretto Life for a $350,000 universal life insurance policy that will explicitly REPLACE an existing $150,000 whole life policy on his life, also issued by Libretto. When the underwriter calculates the total amount of in-force coverage on Mr. Stroud to assess financial justification, the underwriter will count:',
     options: [
       'Zero of the $150,000 whole life policy, because it will be surrendered and replaced upon issuance of the new contract.',
@@ -1235,7 +1235,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 92,
-    lo: 'Topic 10: Financial Underwriting - Treatment of Employer Group Life Insurance',
+    lo: 'principle',
     question: 'Deirdre Park applies for a $200,000 individual life insurance policy. In evaluating the appropriateness of the requested amount, the underwriter reviews Ms. Park\'s existing coverage: (1) She participates in an employer pension plan offering a $75,000 pre-retirement death benefit; (2) She has $120,000 of group term life insurance through her employer; (3) She personally owns a $50,000 individual whole life policy. Under standard financial underwriting guidelines that exclude group term and qualified retirement plans, what amount does the underwriter consider to be Ms. Park\'s current in-force personal coverage?',
     options: [
       '$50,000 (only her personally owned individual whole life policy).',
@@ -1248,7 +1248,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 93,
-    lo: 'Topic 10: Financial Underwriting - Treatment of Key-Person Life Insurance',
+    lo: 'principle',
     question: 'David Cole applies for $500,000 of personal life insurance for the benefit of his family. David\'s employer owns a $1,000,000 key-person life insurance policy on David\'s life, for which the employer is the sole premium payor and sole beneficiary. In determining the amount of personal coverage in force on David\'s life, how does the underwriter treat the key-person policy?',
     options: [
       'The key-person policy is NOT counted toward David\'s personal insurance in-force limit, because the proceeds protect the business against financial loss and provide no benefit to David\'s personal estate or family.',
@@ -1261,7 +1261,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 94,
-    lo: 'Topic 10: Financial Underwriting - Earned Income vs. Unearned Income',
+    lo: 'principle',
     question: 'When determining the financial justification for life insurance under the Human Life Value approach or multiple-of-income tables, why do life insurance underwriters consider EARNED income and typically EXCLUDE unearned income?',
     options: [
       'Because earned income (salary/wages) ceases upon the death of the insured, creating an economic loss that life insurance is designed to replace; whereas unearned income (dividends, interest, trust income) continues after death.',
@@ -1274,7 +1274,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 95,
-    lo: 'Topic 10: Financial Underwriting - Face Amount vs. Net Worth Calculation',
+    lo: 'principle',
     question: 'When an underwriter calculates an individual\'s personal net worth on a financial statement, is the face amount of the applicant\'s existing in-force life insurance policies included as an asset in the net worth calculation?',
     options: [
       'No; the face amount is a contingent future death benefit, not a current balance sheet asset. Only the accumulated cash surrender value (CSV) is included in net worth.',
@@ -1287,7 +1287,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 96,
-    lo: 'Topic 10: Financial Underwriting - Factor Tables / Multiple of Income Limits',
+    lo: 'principle',
     question: 'Underwriters employ "factor tables" (multiples of earned income) to cap the maximum allowable death benefit for personal life insurance. How does the allowable multiple of earned income change as the applicant\'s age increases?',
     options: [
       'The multiple DECREASES as age increases (e.g., 25-30x earned income at age 25; decreasing to 10-15x at age 50; and 5x or less near retirement).',
@@ -1300,7 +1300,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 97,
-    lo: 'Topic 10: Financial Underwriting - Evaluating Total In-Force Portfolio',
+    lo: 'principle',
     question: 'John Stroud owns: (1) $250,000 individual term policy issued by Cameo Life; (2) $150,000 group term life through his employer; (3) $500,000 key-person policy owned by his employer; (4) $150,000 whole life policy with Libretto Life being REPLACED by a new $350,000 Libretto policy. When the Libretto underwriter assesses Mr. Stroud\'s continuing in-force individual coverage to add to the new $350,000 application, which existing policy is counted?',
     options: [
       'Only the $250,000 individual term policy issued by Cameo Life.',
@@ -1313,7 +1313,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 98,
-    lo: 'Topic 10: Financial Underwriting - Estate Liquidity Need for High Net Worth',
+    lo: 'principle',
     question: 'When underwriting large life insurance policies for estate planning purposes on high-net-worth individuals whose earned income is negligible or non-existent, how do underwriters justify the financial need for insurance?',
     options: [
       'By estimating the anticipated estate tax liabilities, state inheritance taxes, administrative costs, and debt liquidity needs upon death, ensuring the policy face amount reasonably matches projected estate liquidity obligations.',
@@ -1326,7 +1326,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 99,
-    lo: 'Topic 10: Financial Underwriting - Signs of Speculation / STOLI Hazard',
+    lo: 'principle',
     question: 'Which of the following application characteristics would alert a financial underwriter to potential speculation, lack of insurable interest, or Stranger-Originated Life Insurance (STOLI)?',
     options: [
       'An elderly applicant with modest assets applying for a multi-million dollar policy funded by non-recourse premium financing from an unrelated third-party investor.',
@@ -1339,7 +1339,7 @@ export const top10LearningAidsQuestions: Question[] = [
   },
   {
     id: 100,
-    lo: 'Topic 10: Financial Underwriting - Premium-to-Income Affordability Ratios',
+    lo: 'principle',
     question: 'Why do underwriters establish premium affordability guidelines (typically restricting total annual insurance premiums to no more than 10% to 15% of the applicant\'s gross annual earned income)?',
     options: [
       'To prevent early policy lapse, ensure long-term persistency, and deter applicants from entering into financially unsustainable contracts that heighten anti-selection.',

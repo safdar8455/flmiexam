@@ -8,6 +8,8 @@ export { chapter1Questions } from './chapter1';
 export { chapter2Questions } from './chapter2';
 export { chapter4Questions } from './chapter4';
 export { glossaryQuestions } from './glossary';
+export { loma307TpgChapters } from './tpgChapterQuestions';
+export { loma307SampleExamQuestions, loma307FinalExamQuestions } from './sampleExam';
 
 export const businessLawQuestions: Question[] = [
   ...chapter1Questions,
@@ -15,4 +17,3 @@ export const businessLawQuestions: Question[] = [
   ...chapter4Questions,
   ...glossaryQuestions
 ];
-

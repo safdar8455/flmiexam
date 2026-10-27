@@ -39,7 +39,7 @@ import { chapter13Questions as loma290Chapter13 } from './loma290/chapter13';
 import { chapter14Questions as loma290Chapter14 } from './loma290/chapter14';
 import { companyOperationsQuestions, glossaryQuestions as loma290Glossary, loma290TpgChapters, loma290FinalExamQuestions, top10LearningAidsQuestions as loma290Top10LearningAids } from './loma290';
 import { chapter1Questions as loma301Chapter1, chapter2Questions as loma301Chapter2, chapter3Questions as loma301Chapter3, chapter4Questions as loma301Chapter4, chapter5Questions as loma301Chapter5, chapter6Questions as loma301Chapter6, chapter7Questions as loma301Chapter7, chapter8Questions as loma301Chapter8, chapter9Questions as loma301Chapter9, chapter10Questions as loma301Chapter10, chapter11Questions as loma301Chapter11, chapter12Questions as loma301Chapter12, glossaryQuestions as loma301Glossary, loma301TpgChapters, loma301SampleExamQuestions, top10LearningAidsQuestions as loma301Top10LearningAids } from './loma301';
-import { businessLawQuestions, chapter1Questions as loma307Chapter1, chapter2Questions as loma307Chapter2, chapter4Questions as loma307Chapter4, glossaryQuestions as loma307Glossary } from './loma307';
+import { businessLawQuestions, chapter1Questions as loma307Chapter1, chapter2Questions as loma307Chapter2, chapter4Questions as loma307Chapter4, glossaryQuestions as loma307Glossary, loma307TpgChapters, loma307SampleExamQuestions, loma307FinalExamQuestions } from './loma307';
 import { marketingQuestions } from './loma311';
 import { lifeInsuranceLawQuestions, loma320Chapter1Questions, loma320Chapter2Questions, loma320Chapter3Questions } from './loma320';
 import { managementQuestions } from './loma335';
@@ -167,7 +167,11 @@ export const COURSES: Course[] = [
         questions: loma307Glossary
       }
     ],
-    simulationRounds: [loma307Chapter1, loma307Chapter2, loma307Chapter4, loma307Glossary]
+    simulationRounds: [loma307Chapter1, loma307Chapter2, loma307Chapter4, loma307Glossary],
+    tpgQuestions: loma307TpgChapters.flatMap(c => c.questions),
+    tpgChapters: loma307TpgChapters.map(c => ({ id: c.id, title: c.title, description: `Official TPG review for ${c.title}`, questions: c.questions })),
+    finalExam: loma307SampleExamQuestions,
+    tpgFinalExam: loma307SampleExamQuestions
   },
   {
     id: 'loma311',

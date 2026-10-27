@@ -85,7 +85,7 @@ export default function App() {
           const cleanTitle = c.title.replace(/^Chapter\s+\d+:\s*/i, '').replace(/^Chapter\s+\w+:\s*/i, '');
           return {
             ...c,
-            title: `${selectedCourse.shortTitle} TPG Review: ${cleanTitle}`,
+            title: `${selectedCourse.shortTitle} TPG Review: Chapter ${c.id} - ${cleanTitle}`,
             description: `Official Test Preparation Guide questions for ${selectedCourse.shortTitle}.`
           };
         });
@@ -817,7 +817,7 @@ export default function App() {
               Section {currentQuestion.lo} &bull; Principles
             </div>
 
-            <h1 className="font-serif text-xl md:text-3xl lg:text-4xl text-ink leading-tight mb-8 md:mb-16 max-w-2xl">
+            <h1 className="font-serif text-base md:text-xl lg:text-2xl text-ink leading-snug mb-6 md:mb-10 max-w-3xl font-normal">
               {currentQuestion.question}
             </h1>
 
@@ -878,15 +878,15 @@ export default function App() {
               <motion.div
                 initial={{ opacity: 0, x: 20, y: 20 }}
                 animate={{ opacity: 1, x: 0, y: 0 }}
-                className="md:absolute bottom-32 right-0 w-full md:w-80 bg-white border border-accent p-8 p-shadow z-20"
+                className="md:absolute bottom-32 right-0 w-full md:w-96 bg-white border border-accent p-6 md:p-8 p-shadow z-20 max-h-[75vh] overflow-y-auto custom-scrollbar"
                 style={{ boxShadow: '20px 20px 0px rgba(178, 139, 92, 0.1)' }}
               >
                 <div className="text-[10px] uppercase tracking-[0.2em] font-bold text-accent mb-3 font-sans">
-                  {currentStatus.selected === currentQuestion.answer ? 'Confirmation' : 'Concept Revision'}
+                  {currentStatus.selected === currentQuestion.answer ? 'Confirmation & Concept Analysis' : 'Concept Revision & Explanations'}
                 </div>
-                <p className="text-[13px] leading-[1.6] text-ink/80 font-serif">
+                <div className="text-[12px] leading-[1.65] text-ink/90 font-serif whitespace-pre-line">
                   {currentQuestion.explanation}
-                </p>
+                </div>
               </motion.div>
             )}
           </AnimatePresence>
